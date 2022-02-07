@@ -5,7 +5,7 @@ Description:    Lookup library for CS495 Challenge Problems.
 """
 
 
-# function to lookup a value in a given dictionary
+# function to lookup a license plate prefix given a list of license plates
 def lookup_prefix(search_term: int, license_index: list) -> bool and dict:
     # for each entry in the list, search for the plate prefix passed in
     for entry in license_index:
